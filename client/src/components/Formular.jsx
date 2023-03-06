@@ -23,7 +23,7 @@ const Formular = ({ data }) => {
 
     async function submit(e) {
         e.preventDefault();
-        postData("api/tasks", {
+        postData("utils/tasks", {
             taskName: task.taskName,
             description: task.description,
             taskType: task.taskType,
